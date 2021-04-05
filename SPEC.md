@@ -1,6 +1,6 @@
 - All interactions between client and server are plaintext
 - A command consists of a four-letter command ID and then associated data
-- The recipient of a command always responds, either with `DONE` if successful (and the requested data if applicable) or `ERR` (with information) if not
+- The recipient of a command always responds, either with `DONE` if successful (and the requested data if applicable) or `EROR` (with information) if not
 - Nicknames must be alphanumeric
 
 ### Commands
