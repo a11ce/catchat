@@ -16,7 +16,7 @@
 - `CYOU [reason]` disconnects, optionally with a reason.
     - `EROR NOTSENT` if the disconnect message could not be sent.
     - `DONE` if the disconnect message was sent (this response probably doesn't matter).
-- `MESG <nickname|*> <message>` sends a message to a certain person or to everyone connected.
+- `SEND <nickname|*> <message>` sends a message to a certain person or to everyone connected.
     - `EROR NOUSER` if the given nickname is not online.
     - `EROR NOTSENT` if the message could not be sent.
     - `DONE` otherwise.
