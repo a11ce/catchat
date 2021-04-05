@@ -32,3 +32,8 @@
     - `DONE` when received.
 - `MESG <PRIV|*> <nickname> <message>` notifies of a received message, either private or public, and who it was from.
     - `DONE` when received.
+
+---
+
+v0.1
+This spec uses MAJOR.MINOR semver before 1.0 and MAJOR.MINOR.PATCH after 1.0.
