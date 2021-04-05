@@ -8,6 +8,8 @@ client = Catchat_Client(718, nickname)
 input("Press enter to initialize_server on port 718")
 client.initialize_server()
 
+client.update_internal_list()
+
 print("Type .2 to change nickname; .3 to send a DM; .4 to disconnect; .5 to exit")
 
 while True:
